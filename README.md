@@ -1,5 +1,5 @@
 # UImGui
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/psydack/uimgui?style=flat-square)  
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/ttay24/uimgui?style=flat-square)  
 <sub>([ImGui library](https://github.com/ocornut/imgui) is available under a free and permissive license, but needs financial support to sustain its continued improvements. In addition to maintenance and stability there are many desirable features yet to be added. If your company is using Dear ImGui, please consider reaching out.)</sub>
 
 UImGui (Unity ImGui) is an UPM package for the immediate mode GUI library using [ImGui.NET](https://github.com/mellinoe/ImGui.NET).
@@ -46,13 +46,13 @@ To update (using ImGui.Net.dll) easier and often.
 
 Usage
 -------
-- [Add package](https://docs.unity3d.com/Manual/upm-ui-giturl.html) from git URL: https://github.com/psydack/uimgui.git or add manually in your packages folders and update your manifest.json with the [lastest version](https://github.com/psydack/uimgui/blob/main/package.json) (e.g: "com.psydack.uimgui" : "5.0.0")
+- [Add package](https://docs.unity3d.com/Manual/upm-ui-giturl.html) from git URL: https://github.com/ttay24/uimgui.git or add manually in your packages folders and update your manifest.json with the [lastest version](https://github.com/ttay24/uimgui/blob/main/package.json) (e.g: "com.ttay24.uimgui" : "5.0.0")
 - Add `UImGui` component to the scene and
 - (Optional) Set `Platform Type` to `Input System` if you're using the new [input system](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/index.html) the `SampleDemoWindow` object on the scene the following properties:
-- If you're using **URP** check [Using URP](https://github.com/psydack/uimgui#using-urp) section, for **HDRP** [Using HDRP](https://github.com/psydack/uimgui#using-hdrp) section, for **built in** check [Using Built in](https://github.com/psydack/uimgui#using-hdrp) section.
-- You're ready. Look [Samples section](https://github.com/psydack/uimgui#samples) for more usage samples.  
-- To use [ImNodes](https://github.com/Nelarius/imnodes), [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) or [ImPlot](https://github.com/epezent/implot)   check the sample script. If you won't use, [you can disable using directives](https://github.com/psydack/uimgui#directives)  
-- (optional) You can build your ImGui.NET using my custom repo: [ImGui.NET](https://github.com/psydack/ImGui.NET) and [ImGui.NET-nativebuild](https://github.com/psydack/ImGui.NET-nativebuild)
+- If you're using **URP** check [Using URP](https://github.com/ttay24/uimgui#using-urp) section, for **HDRP** [Using HDRP](https://github.com/ttay24/uimgui#using-hdrp) section, for **built in** check [Using Built in](https://github.com/ttay24/uimgui#using-hdrp) section.
+- You're ready. Look [Samples section](https://github.com/ttay24/uimgui#samples) for more usage samples.  
+- To use [ImNodes](https://github.com/Nelarius/imnodes), [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) or [ImPlot](https://github.com/epezent/implot)   check the sample script. If you won't use, [you can disable using directives](https://github.com/ttay24/uimgui#directives)  
+- (optional) You can build your ImGui.NET using my custom repo: [ImGui.NET](https://github.com/ttay24/ImGui.NET) and [ImGui.NET-nativebuild](https://github.com/ttay24/ImGui.NET-nativebuild)
 
 Samples
 -------
